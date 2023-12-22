@@ -40,7 +40,7 @@ const Home = () => {
 
         <div className=" md:w-[90%] w-full  border " style={{ overflowX: "scroll" }}>
         <h1 className="w-full  text-white px-2 p-1 bg-gray-600 mb-3">
-          Clients Panel{" "}
+          Clients Panel
         </h1>
           <table className="w-full  overflow-hidden">
             <h1 className="font-bold p-2">Clients</h1>
