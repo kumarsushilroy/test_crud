@@ -28,31 +28,32 @@ const Adduser = () => {
 
   return (
     <div>
-        <div className='w-[400px] h-full shadow-md mx-auto mt-10 p-10'>
+        <div className='w-full h-full shadow-md mx-auto  p-10'>
 
             <form onSubmit={handleSubmit} >
+              <h1 className='font-bold pb-3'>Create Client</h1>
                 <div className=''>
-                <label className='block'>Name</label>
+                <label className='block text-sm'>Name</label>
                 <input required className='border p-1 w-full outline-none' value={name} onChange={(e)=>setname(e.target.value)} type="text" />
                 </div>
 
                 <div className='mt-2'>
-                <label className='block'>Last Name</label>
+                <label className='block text-sm'>Last Name</label>
                 <input required className='border p-1 w-full outline-none' value={lastname} onChange={(e)=>setlastname(e.target.value)} type="text" />
                 </div>
 
                 <div className='mt-2'>
-                <label className='block'>Email</label>
+                <label className='block text-sm'>Email</label>
                 <input required className='w-full p-1 border outline-none' value={email} onChange={(e)=>setemail(e.target.value)} type="text" />
                 </div>
 
                 <div className='mt-2'>
-                <label className='block'>Mobile No.</label>
+                <label className='block text-sm'>Mobile No.</label>
                 <input required className='w-full border p-1 outline-none' value={mobile} onChange={(e)=>setmobile(e.target.value)} type="text" />
                 </div>
 
                 <div className='mt-2'>
-                <label className='block'>Project</label>
+                <label className='block text-sm'>Project</label>
                 <input required className='w-full border p-1 outline-none' value={project} onChange={(e)=>setproject(e.target.value)} type="text" />
                 </div>
 
